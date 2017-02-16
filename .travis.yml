@@ -2,6 +2,6 @@ language: python
 python:
   - "3.6"
 # install dependencies
-install: pip install -r requirements.txt --use-mirrors
+install: pip install -r requirements.txt
 # run tests
 script: nosetests
